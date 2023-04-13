@@ -55,7 +55,7 @@ print(f'Our new result: {squares}')
 ##### Explanation
 List comprehension consists of...  
 - **Square brackets []** containing an expression describing the list
-- **1+ For clauses ** to explain its members
+- **1+ For clauses** to explain its members
 - **0+ If clauses** when complexity is needed
 
 Examine: [i\*\*2 for i in range(10)]
@@ -86,7 +86,7 @@ print(result)
 - A condition must be made, which is x != y in this case
     - As long as x != y is true, item [x,y] will be added to the resulting list
 #### Example 3
-Objective: Use list comprehension to turn a 2D array called vec to a single list  
+Objective: Use list comprehension to turn a 2D array called *vec* to a single list  
 
 vec = [[1,2,3], [4,5,6], [7,8,9]]  
 Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]  
@@ -100,7 +100,7 @@ print('Vec as a single list of values: %s' % result)
 # Vec as a single list of values: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 ##### Explanation
-vec is an example of a *matrix* in Python 3 (2D List)
+vec is an example of a [*matrix*](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/edit/main/notes.md#matrix) in Python 3 (2D List)
 
 In order to take each and every value from the *rows*, follow the procedures.
 - Each item will be explained as variable 'value'
