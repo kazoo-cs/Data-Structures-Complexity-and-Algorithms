@@ -4,9 +4,9 @@
 
 ### Matrix
 #### Mathematics
-It is a representation of numbers, symbols, or expressions in a 2D array  
+It is a representation of *numbers, symbols, or expressions* in a 2D array  
 #### Computer Science
-Store values in rows and columns  
+Store values in *rows and columns*  
 Utilize lists in a list (2D)  
 ```python
 # Python 3 representation of Matrix A
@@ -31,6 +31,7 @@ No data structure named "Matrix" is found in Python 3
 It is a method in creating a list in Python 3
 
 #### When is it used?
+When...
 - List is the result of operations applied to **all of its items**
 - List is made from iteration
 - List is a member of another list/sequence/iterable data that satisfies a certain condition
@@ -110,3 +111,13 @@ In order to take each and every value from the *rows*, follow the procedures.
     - for value in row
  
  The **ORDER** of **for clauses MATTER!**
+ 
+ ### Map and Filter in Python 3
+ #### The Map Function
+ Apply a **function** to an *iterable* data  
+ 
+ How to format:  
+ ```python
+ map(function_name, sequence)  
+```
+
