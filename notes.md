@@ -1,5 +1,12 @@
 # Data structures Complexity and  Algorithms
 
+## Menu  
+[Matrix & List cmprh]()  
+[Map & Filter]()  
+[Tuples]()  
+[Sets]()  
+[Dictionary]()  
+
 ## 1. Matrices and List comprehension
 
 ### Matrix
@@ -112,12 +119,130 @@ In order to take each and every value from the *rows*, follow the procedures.
  
  The **ORDER** of **for clauses MATTER!**
  
- ### Map and Filter in Python 3
+ ## 2. Map and Filter in Python 3
  #### The Map Function
  Apply a **function** to an *iterable* data  
- 
+ Built in function that applies a given function to every single item in the given list  
  How to format:  
  ```python
  map(function_name, sequence)  
 ```
+#### The Filter Function
+Built in function
+Filters out items in a sequence where a function decides 
 
+## 3. Tuples
+It is an *immutable* sequenceable data-type object
+- Declared with *parenthesis* ()
+- ()is an *empty* tuple
+- (50,) is a singleton tuple; the comma is *required*
+- Tuples are *sliceable*; therefore indexabl eusing square brackets
+
+Operators
+- Len function
+- Concatenation (addition of same data type)
+- Repetition (multiplication of same data type)
+- Membership
+- Max/Min functions
+- Tuple function
+## 4. Sets
+Well-defined collectin of distinct objects, considered as an objet in its own right  
+Aset can be denoted with {} brackets mathematically
+- Does *not* need to be ordered
+- Can contain *duplicates*; moreover, the set with no duplicates of same objects will still be considered equal
+    -  {a,b,c} == {a,a,b,b,b,c,c,c,c}
+-  A set can be expressed as a mathematical relationship
+    -  A = {x|2x+6 = 0}
+        -  "Set A consists of memers of x; such tha t2 times x plus6 equals 0"
+### Membership
+#### Subset
+One set apart from another  
+A = {Mark, Angela}  
+B = {Mark, Angela, Frank, Laura}  
+Any set whose its members are elements of another set  
+"SetA is a subset of setB"  
+#### Proper Subset
+A = {Mark, Angela}  
+B = {Mark, Angela, Frank, Laura}  
+A cannot be equal to B  
+#### Power Set
+A set with all the subsets of the set  
+B = {Fred, Mary}  
+P(B) = { {}, {Fred}, {Mary}, {Fred, Mary}}  
+#### Union
+The union of towo sets is the result of all its member into a singular set with *dulicate members discarded*  
+A = {Mary,Larry,Angela}
+B = {Mary,Frank,Fred}
+A U B = {Mary, Larry, Frank, Angela, Fred}
+#### Intersection
+
+#### Subtraction
+Does not exist
+Left to Right
+A - B results to removing the members that exist in set B from set A
+
+#### Symmetric Difference
+Elements that are in either set, BUT they cannot intersect  
+
+#### Universe Set
+A set that 
+
+#### Complement
+left overs that doesnt exist 
+
+### Sets in Python 3
+A set is an unordered collection with no duplicate elements
+Operations
+- Union
+- Intersection
+- Difference
+- Symmetric Difference
+
+Built in DATA-TYPE in Python 3
+```python
+basket = {'apple','orange','apple','pear','orange'}
+
+print("orange" in basket) # True
+print(basket)
+# output -> {'apple','orange','pear'}
+
+# using set()
+a = set('abracadabra')
+print(a) 
+# output -> {'a','b','r','c','d'}
+# Duplicates disappear
+```
+Set can check the unique address for 
+Tuples, lists check left to right, checking each and every value
+```python
+# Set Operations
+a = set('abracadabra') # a = {'a','b','r','c','d'}
+b = set
+```
+Why are there methods and operators??  
+**Mutability** 
+
+#### Set comprehension
+a = set() is an EMPTY set not {}
+
+Check membership -> x in set
+Determine the number of members -> len(set)
+Iterate throguh the set -> for x in set
+
+What can't be done
+-Sets are NOT INDEXABLE
+
+Built in statements
+Let s be a set
+s.add(elem) # adds elem to the set
+s.remove(elem) # removes elem from the set; ERROR if elem DNE
+s.discard
+s.clear
+
+Coding notes
+"in" is more efficient than strings and math operators  
+Functional programming f(g(x))
+g(x) -> f(x)
+
+
+## 5. Dictionary
