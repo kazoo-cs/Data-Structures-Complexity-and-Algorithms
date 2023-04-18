@@ -128,26 +128,27 @@ In order to take each and every value from the *rows*, follow the procedures.
  map(function_name, sequence)  
 ```
 #### The Filter Function
-Built in function
+Built in function  
 Filters out items in a sequence where a function decides 
 
 ## 3. Tuples
-It is an *immutable* sequenceable data-type object
+It is an *immutable* sequenceable data-type object  
 - Declared with *parenthesis* ()
-- ()is an *empty* tuple
+- () is an *empty* tuple  
 - (50,) is a singleton tuple; the comma is *required*
-- Tuples are *sliceable*; therefore indexabl eusing square brackets
+- Tuples are *sliceable*; therefore indexable using square brackets
 
-Operators
+Operators  
 - Len function
 - Concatenation (addition of same data type)
 - Repetition (multiplication of same data type)
 - Membership
 - Max/Min functions
 - Tuple function
+
 ## 4. Sets
-Well-defined collectin of distinct objects, considered as an objet in its own right  
-Aset can be denoted with {} brackets mathematically
+Well-defined collection of distinct objects, considered as an object in its own right  
+A set can be denoted with {} brackets mathematically  
 - Does *not* need to be ordered
 - Can contain *duplicates*; moreover, the set with no duplicates of same objects will still be considered equal
     -  {a,b,c} == {a,a,b,b,b,c,c,c,c}
@@ -170,16 +171,16 @@ A set with all the subsets of the set
 B = {Fred, Mary}  
 P(B) = { {}, {Fred}, {Mary}, {Fred, Mary}}  
 #### Union
-The union of towo sets is the result of all its member into a singular set with *dulicate members discarded*  
-A = {Mary,Larry,Angela}
-B = {Mary,Frank,Fred}
-A U B = {Mary, Larry, Frank, Angela, Fred}
+The union of two sets is the result of all its member into a singular set with *duplicate members discarded*  
+A = {Mary,Larry,Angela}  
+B = {Mary,Frank,Fred}  
+A U B = {Mary, Larry, Frank, Angela, Fred}  
 #### Intersection
 
 #### Subtraction
-Does not exist
-Left to Right
-A - B results to removing the members that exist in set B from set A
+Does not exist  
+Left to Right  
+A - B results to removing the members that exist in set B from set A  
 
 #### Symmetric Difference
 Elements that are in either set, BUT they cannot intersect  
@@ -191,14 +192,15 @@ A set that
 left overs that doesnt exist 
 
 ### Sets in Python 3
-A set is an unordered collection with no duplicate elements
-Operations
+A set is an unordered collection with no duplicate elements  
+
+Operations  
 - Union
 - Intersection
 - Difference
 - Symmetric Difference
 
-Built in DATA-TYPE in Python 3
+Built in DATA-TYPE in Python 3  
 ```python
 basket = {'apple','orange','apple','pear','orange'}
 
@@ -213,7 +215,7 @@ print(a)
 # Duplicates disappear
 ```
 Set can check the unique address for 
-Tuples, lists check left to right, checking each and every value
+Tuples, lists check left to right, checking each and every value  
 ```python
 # Set Operations
 a = set('abracadabra') # a = {'a','b','r','c','d'}
@@ -239,14 +241,14 @@ s.remove(elem) # removes elem from the set; ERROR if elem DNE
 s.discard  
 s.clear  
 
-Coding notes
+Coding notes  
 "in" is more efficient than strings and math operators  
-Functional programming f(g(x))
-g(x) -> f(x)
+Functional programming f(g(x))  
+g(x) -> f(x)  
 
 
 ## 5. Dictionary
-Data type that stores a collectio of key, value pairs such that each possiblekey appears at most once in the collection  
+Data type that stores a collection of key, value pairs such that each possible key appears at most once in the collection  
 key = address, where is this value located  
 indexes are called keys  
 
@@ -259,7 +261,7 @@ We can create a dictionary using braces {} (an empty dict)
 
 set() vs {}  
 
-sammy = {'username': 'sammy',' 'online': True}
+sammy = {'username': 'sammy',' 'online': True}  
 
 Keys: Unique address for an item in a dictionary  
 
@@ -269,18 +271,18 @@ Must use an immutable data type
 Operations will look for the KEY   
 
 A.keys() # Returns seq of keys in A  
-A.values()  # Returns a seq of item values in A  
+A.values()  # Returns a seq of item values in A   
 A.items() # Returns a seq of key,item pairs in A  
 
 a list of tuples can be turned to a dictionary item pair by using dict()  
 
-dict([('one,3),('two',3)])
+dict([('one,3),('two',3)])  
 
-studetns = OP # Empty dictionary
+students = OP # Empty dictionary  
 
-student['GWSS01'] = 'Jake'
+student['GWSS01'] = 'Jake'  
 
-iterating a dictoinary requires you to use variable_name.key/items/etc
+iterating a dictoinary requires you to use variable_name.key/items/etc  
 
 
 
