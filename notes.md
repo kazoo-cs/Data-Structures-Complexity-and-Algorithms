@@ -220,24 +220,24 @@ a = set('abracadabra') # a = {'a','b','r','c','d'}
 b = set
 ```
 Why are there methods and operators??  
-**Mutability** 
+**Mutability**  
 
 #### Set comprehension
-a = set() is an EMPTY set not {}
+a = set() is an EMPTY set not {}  
 
-Check membership -> x in set
-Determine the number of members -> len(set)
-Iterate throguh the set -> for x in set
+Check membership -> x in set  
+Determine the number of members -> len(set)  
+Iterate throguh the set -> for x in set  
 
-What can't be done
--Sets are NOT INDEXABLE
+What can't be done  
+-Sets are NOT INDEXABLE  
 
-Built in statements
-Let s be a set
-s.add(elem) # adds elem to the set
-s.remove(elem) # removes elem from the set; ERROR if elem DNE
-s.discard
-s.clear
+Built in statements  
+Let s be a set  
+s.add(elem) # adds elem to the set 
+s.remove(elem) # removes elem from the set; ERROR if elem DNE  
+s.discard  
+s.clear  
 
 Coding notes
 "in" is more efficient than strings and math operators  
@@ -246,3 +246,42 @@ g(x) -> f(x)
 
 
 ## 5. Dictionary
+Data type that stores a collectio of key, value pairs such that each possiblekey appears at most once in the collection  
+key = address, where is this value located  
+indexes are called keys  
+
+Customizable, Systematic Indexing  
+Keys do not need to be sorted  
+
+Python contains an efficient key/value 'hash table' called 'dict'.  
+
+We can create a dictionary using braces {} (an empty dict)  
+
+set() vs {}  
+
+sammy = {'username': 'sammy',' 'online': True}
+
+Keys: Unique address for an item in a dictionary  
+
+No two alues can share a key  
+Must use an immutable data type  
+
+Operations will look for the KEY   
+
+A.keys() # Returns seq of keys in A  
+A.values()  # Returns a seq of item values in A  
+A.items() # Returns a seq of key,item pairs in A  
+
+a list of tuples can be turned to a dictionary item pair by using dict()  
+
+dict([('one,3),('two',3)])
+
+studetns = OP # Empty dictionary
+
+student['GWSS01'] = 'Jake'
+
+iterating a dictoinary requires you to use variable_name.key/items/etc
+
+
+
+
