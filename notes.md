@@ -1,11 +1,11 @@
 # Data structures Complexity and  Algorithms
 
 ## Menu  
-[Matrix & List cmprh]()  
-[Map & Filter]()  
-[Tuples]()  
-[Sets]()  
-[Dictionary]()  
+[Matrix & List cmprh](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/blob/main/notes.md#1-matrices-and-list-comprehension)  
+[Map & Filter](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/blob/main/notes.md#2-map-and-filter-in-python-3)  
+[Tuples](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/blob/main/notes.md#3-tuples)  
+[Sets](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/blob/main/notes.md#4-sets)  
+[Dictionary](https://github.com/kazoo-cs/Data-Structures-Complexity-and-Algorithms/blob/main/notes.md#5-dictionary)  
 
 ## 1. Matrices and List comprehension
 
