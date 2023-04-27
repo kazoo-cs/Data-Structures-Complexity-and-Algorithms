@@ -284,6 +284,26 @@ student['GWSS01'] = 'Jake'
 
 iterating a dictoinary requires you to use variable_name.key/items/etc  
 
+## Refactoring
+
+### Unit
+A segment of a program tha thandles a problem's specific requirement  
+
+### Refactoring
+
+The act of improving 
+
+### Big - O - Notation
+Mathematical notation that describes the limiting behaviour of a function as its input/parameter/argument approaches infinity
+
+1. Algorithm Proof
+    - To prove algo A is better than algo B, we must have a proof
+2. Measure Performance, Run-time, or Disk Usage
+3. 
+4. 
+
+O(1) - constant performance 
+O(log n) - 
 
 
 
