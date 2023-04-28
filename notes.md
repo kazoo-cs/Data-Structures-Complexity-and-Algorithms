@@ -305,5 +305,7 @@ Mathematical notation that describes the limiting behaviour of a function as its
 O(1) - constant performance 
 O(log n) - 
 
+Binary search: must be comparable and solvable, sorted.
 
+Bubble sort: sorting algorithm that is based upon comparing and swapping 
 
